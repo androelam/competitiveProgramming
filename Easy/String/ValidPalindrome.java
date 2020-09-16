@@ -9,7 +9,7 @@ class ValidPalindrome {
             }
             else {
                 i++;
-                len--;
+                len--;  
             }
         }
         return true;
