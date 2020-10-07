@@ -17,6 +17,4 @@ public class Solution {
         return (len > 0)? len : 0;
    
     }
-}class SearchInsert {
-    
 }
