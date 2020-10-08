@@ -4,8 +4,6 @@ public class LongestSubStringWithoutRepeatingCharacter {
         int ptr1 = 0;
         int ptr2 = 0;
         HashSet<Character> hSet = new HashSet();
-        
-            
            while(ptr2 < s.length()){
             if (!hSet.contains(s.charAt(ptr2))) {
                hSet.add(s.charAt(ptr2));
