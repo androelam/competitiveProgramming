@@ -1,4 +1,4 @@
-class Solution {
+class MajorityElement {
     public int majorityElement(int[] nums) {
         if(nums.length == 1) {
             return nums[0];
